@@ -21,8 +21,8 @@ We build the methodology — verifiers, audit protocols, claim formats, and prov
 **Verifiers are the binding constraint.**
 Capability is bounded by what we can verify. The history of science is the history of verifier engineering — the microscope, the statistical test, peer review, the formal proof. We focus on the verifier-engineering layer: cross-family audit protocols, paired-bootstrap intervals, oracle hashing, formal proof checkers, identifiability-error metrics.
 
-**The unit of research is the claim, not the paper.**
-A paper is a wrapper. As AI compresses paper-writing time toward zero, the paper becomes a poor unit of credit and a worse unit of trust. We design methods that make claims first-class artifacts: statable, testable, hashable, and version-controllable.
+**Claims as first-class artifacts.**
+Whatever the delivery format — paper, code, dataset, post — the value of the work depends on whether its individual claims can be independently traced, tested, and trusted. We design methods that make claims statable, testable, hashable, and version-controllable, so each one can be audited on its own.
 
 **No load-bearing claim survives a single model.**
 When one frontier model becomes the dominant generator and the dominant verifier, the field's blind spots become its consensus. We treat any load-bearing claim as untrusted until it has been audited across at least three model families spanning different reasoning depths.
